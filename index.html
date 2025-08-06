@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!--rel stands for relationships and specifies the type of connection that the linked source and the current file have-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--crossorigin allows the browser to make cross-origin requests for the linked resource, making the app compatible with different Browswers-->
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> <!--This link imports the Fira Sans font from Google Fonts, allowing it to be used in the app's styles-->
+        <link rel="stylesheet" href="style.css"> <!--This link imports the CSS file that contains the styles for the app, ensuring that the app's appearance is defined by the styles in this file-->
+        <title>Pomodore App</title>
+    </head>
+    <body>
+    <div class="app-container">
+            <h1>pomodoro</h1>
+            <div class="app-message">press start to begin</div>
+            <div  class="app-circle">
+                <div class="circle-shape">
+                    <div class="semi-circle right-side circle-mask"></div>
+                    <div class="semi-circle right-side circle"></div>
+                    <div class="semi-circle left-side circle-mask"></div>
+                    <div class="semi-circle left-side circle"></div>
+                </div>
+                <div class="app-counter-box">
+                    <p><span class="minutes">25</span>:<span class="seconds">00</span></p> <!--span is a inline container used for styling purporses-->
+                    <button class="btn-start">Start</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
