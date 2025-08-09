@@ -98,7 +98,7 @@ button {
   letter-spacing: 1px;
   border: none;
   background: none;
-  outline: none;
+  outline: none; /* CSS property that sets the style of an element's outline. In this case, none means no outline */
   color: #d8e9ef;
 }
 
