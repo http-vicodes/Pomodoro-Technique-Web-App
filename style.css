@@ -32,14 +32,14 @@ p {
 }
 
 .app-circle {
-    position: relative; /* Position relative for absolute children which means... */
+    position: relative; /* CSS property that sets how an element is positioned in a document. Relative means that the element is positioned according to the normal flow of the document, however, without changing its neighbour elements. */
     margin: 40px auto;
     width: 200px;
     height: 200px;
 }
 
 .circle-shape {
-    pointer-events: none; /* explanation needed */
+    pointer-events: none; /* CSS property that sets when a particular element can become the target of pointer eventns. In this case, never. */
 }
 
 .semi-circle {
