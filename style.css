@@ -4,8 +4,8 @@ html {
     letter-spacing: 0.8px;
     min-height: 100vh;
     color: #d8e9ef;
-    background-image: linear-gradient(-20deg, #025159 0%, #733b36 100%); /* Gradient background settings:  */
-    background-size: cover; /* Ensures the background covers the entire viewport */
+    background-image: linear-gradient(-20deg, #025159 0%, #733b36 100%); /* CSS property sets one or more background images on an element.  */
+    background-size: cover; /*  CSS property sets the size of the element's background image. In this case, it ensures that it covers the entire viewport */
 }
 
 h1 {
@@ -46,19 +46,19 @@ p {
     position: absolute;
     width: 100px;
     height: 200px;
-    box-sizing: border-box; /* explanation needed */
+    box-sizing: border-box; /*  CSS property that sets how the browser calculates an element's total width and height. With border-box, the width and height include the content, padding, and border. */
     border: solid 6px; 
 }
 
 .left-side {
     top: 0;
     left: 0;
-    transform-origin: right center; /* explanation needed */
-    transform: rotate(0edg); /* explanation needed */
-    border-top-left-radius: 100px; /* explanation needed */
-    border-bottom-left-radius: 100px; /* explanation needed */
-    border-right: none;
-    z-index: 1; /* explanation needed */
+    transform-origin: right center; /* CSS property that defines WHERE the transformation of the transform CSS property is applied */
+    transform: rotate(0edg); /* CSS property that enables static rotation, scaling, skewing or translation of an element */
+    border-top-left-radius: 100px; /* CSS property that rounds the top-left corner of an element's border (at the end of padding) by specifying  the radius */
+    border-bottom-left-radius: 100px; /* CSS property that rounds the bottom-left corner of an element's border (at the end of padding) by specifying  the radius */
+    border-right: none; /*CSS property that sets, but in this case erase, the right border of an element*/
+    z-index: 1; /* CSS property that sets the order of priority (overlapping moving to the front) of a positioned element of its descendants */
 }
 
  .right-side {
@@ -94,7 +94,7 @@ button {
   position: relative;
   top: 0;
   font-size: 30%;
-  text-transform: uppercase;
+  text-transform: uppercase; /*CSS property that specifies how to captalize an element's text. Options: Captalize, Uppercase and Lowercase*/
   letter-spacing: 1px;
   border: none;
   background: none;
